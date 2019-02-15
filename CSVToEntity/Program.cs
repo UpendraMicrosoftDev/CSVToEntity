@@ -20,13 +20,23 @@ namespace CSVToEntity
 
                 List<Student> studentCollection = new List<Student>();
 
-                //process line based on comma seperated values
-                foreach(string temp in allLines)
+                using (var dbContext = new StudentContext())
                 {
-                    string[] csvFields = temp.Split(',');
-                    
-                    studentCollection.Add(CSVToObjectLoad.loadEntity<Student>(csvFields));
+                    //process line based on comma seperated values
+                    foreach (string temp in allLines)
+                    {
+                        string[] csvFields = temp.Split(',');
+
+
+                        dbContext.studentEntity.Add(CSVToObjectLoad.loadEntity<Student>(csvFields));
+
+                    }
+
+                    dbContext.SaveChanges();
+
                 }
+
+             
 
                 Console.WriteLine("Import finished");
                 Console.ReadLine();

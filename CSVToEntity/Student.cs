@@ -8,6 +8,7 @@ namespace CSVToEntity
 {
     public class Student
     {
+        public int ID { get; set; }
         [CsvField(0)]
         public string Name { get; set; }
         [CsvField(1)]
