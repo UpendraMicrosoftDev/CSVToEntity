@@ -1,0 +1,10 @@
+C:\Upendra\Project\CSVToEntity\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+C:\Upendra\Project\CSVToEntity\DataLayer\bin\Debug\DataLayer.dll.config
+C:\Upendra\Project\CSVToEntity\DataLayer\bin\Debug\DataLayer.dll
+C:\Upendra\Project\CSVToEntity\DataLayer\bin\Debug\DataLayer.pdb
+C:\Upendra\Project\CSVToEntity\DataLayer\bin\Debug\EntityFramework.dll
+C:\Upendra\Project\CSVToEntity\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Upendra\Project\CSVToEntity\DataLayer\bin\Debug\EntityFramework.xml
+C:\Upendra\Project\CSVToEntity\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Upendra\Project\CSVToEntity\DataLayer\obj\Debug\DataLayer.dll
+C:\Upendra\Project\CSVToEntity\DataLayer\obj\Debug\DataLayer.pdb
